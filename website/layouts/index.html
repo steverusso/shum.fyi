@@ -1,0 +1,15 @@
+{{ define "main" }}
+	<main>
+		<h1>
+			<img src="/xmr.png" width="32" height="32" loading="lazy">
+			<abbr><b>S</b>hould <b>H</b>ave <b>U</b>sed <b>M</b>onero</abbr>
+		</h1>
+		<hr>
+
+		<article>{{ .Content }}</article>
+
+		{{ with site.GetPage "/events" }}
+			{{ partial "events" .Pages }}
+		{{ end }}
+	</main>
+{{ end }}

@@ -1,0 +1,9 @@
+donate:
+  title: Donate
+  image: /xmr-qr.png
+  addr: 82WA6NNNKe9TARNTWAeGXpFVoYGHoKPVdhtWHEXN4Gq2Kq2S2GWRa1agqym7k7Nq8aXQRViFHb6a79aH2B2yRt9s9htXnfR
+  openalias: donate@shum.fyi
+
+contrib:
+  title: Contribute
+  blurb: "Something missing? Feel free to open an issue [on Github](https://github.com/steverusso/shum.fyi) or send an email to info@shum.fyi!"

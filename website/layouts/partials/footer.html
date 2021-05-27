@@ -1,0 +1,33 @@
+<footer>
+	<main>
+		<div class="grid sm-6">
+			<div>
+				{{ with site.Data.footer.donate }}
+					<h3 id="{{ .title | anchorize }}">
+						{{ .title }}
+						<small>(<span class="easy-select">{{ .openalias }}</span>)</small>
+					</h3>
+
+					<code class="easy-select">{{ .addr }}</code>
+					<br><br>
+
+					<a href="{{ .image }}">(QR code)</a>
+				{{ end }}
+			</div>
+
+			<div>
+				{{ with site.Data.footer.contrib }}
+					<h3 id="{{ .title | anchorize }}">{{ .title }}</h3>
+					<p>{{ .blurb | markdownify }}</p>
+				{{ end }}
+			</div>
+		</div>
+
+		{{ if .IsHome }}
+			<hr>
+			<img src="/shum.png" height="40" width="auto" loading="lazy">
+		{{ else }}
+			<br><br>
+		{{ end }}
+	</main>
+</footer>

@@ -1,0 +1,27 @@
+{{ define "partials/tag" }}
+	{{ if eq "string" (printf "%T" .) }}
+		{{ with index site.Taxonomies.tags . }}
+			{{ partialCached "tag" .Page .Page }}
+		{{ end }}
+	{{ else }}
+		<a href="{{ .RelPermalink }}">
+			<img src="/{{ .Params.image }}" loading="lazy">
+			<u>{{ .Title }}</u>
+		</a>
+	{{ end }}
+{{ end }}
+
+{{ define "partials/tag-count" }}
+	<a href="{{ .RelPermalink }}">
+		<img src="/{{ .Params.image }}" loading="lazy">
+		<u>{{ .Title }} &nbsp;({{ len .Pages }})</u>
+	</a>
+{{ end }}
+
+{{ define "partials/tags" }}
+	<div class="tags">
+		{{ range . }}
+			{{ partialCached "tag" . . }}
+		{{ end }}
+	</div>
+{{ end }}

@@ -1,0 +1,18 @@
+languageCode: 'en-us'
+disableKinds: [ 'RSS' ]
+title: shum.fyi
+
+minify:
+  minifyOutput: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  events: '/e/:filename/'
+  tags: '/t/:slug/'

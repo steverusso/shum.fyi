@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg8"
+   inkscape:export-filename="/home/steve/projects/shum.fyi/website/static/btc-tainted.png"
+   inkscape:export-xdpi="48"
+   inkscape:export-ydpi="48"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
+   sodipodi:docname="btc-tainted.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2785629"
+     inkscape:cx="256.95125"
+     inkscape:cy="255.40519"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="bg">
+    <circle
+       style="fill:#f7931a;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;paint-order:fill markers stroke;fill-opacity:1"
+       id="path836"
+       cx="67.73333"
+       cy="67.73333"
+       r="66.346283" />
+  </g>
+  <g
+     inkscape:label="splat"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path833"
+       style="fill:#2b0000;stroke-width:2.4789;stroke-linecap:round;stroke-linejoin:bevel;paint-order:fill markers stroke"
+       d="m 82.097868,88.912667 c -1.577939,-0.08796 0.961707,24.977673 -0.606306,25.361683 -1.568018,0.38398 -7.243696,-23.913665 -8.605023,-23.110913 -3.506521,2.067739 -6.698045,4.344884 -8.485322,9.344553 -1.787278,4.99965 -5.863392,20.62986 -11.764295,16.52025 -5.900902,-4.10962 4.660895,-18.644559 6.370793,-22.682549 1.709908,-4.037994 -1.73898,-5.487069 -3.024284,-9.286039 -0.506489,-1.497029 -8.987403,3.197486 -9.962671,1.912353 -0.975275,-1.285127 5.555094,-8.5499 4.314504,-9.528961 -3.45384,-2.725738 -5.42606,-6.422017 -10.355298,-6.783808 -4.929239,-0.361791 -25.259877,9.211164 -24.054987,-4.974498 1.20489,-14.185662 19.441058,-2.034717 24.774779,-1.812713 5.333715,0.222006 5.583332,-2.09923 8.792064,-4.685719 1.187847,-0.957496 -9.992245,-12.59602 -9.223354,-13.955329 0.768889,-1.35931 13.486759,7.560595 13.919811,6.097638 0.974436,-3.291886 0.484705,-8.262575 -1.138291,-12.304931 -1.622998,-4.042355 -23.071782,-15.662607 -4.638643,-20.601752 18.43314,-4.939145 14.934727,19.179088 16.600814,22.290214 1.666087,3.111126 2.876543,1.353324 6.004053,2.717524 1.398456,0.609997 2.954255,-6.055226 4.50893,-5.721756 1.554675,0.333468 3.108229,7.665627 4.53648,7.129086 3.722309,-1.398331 6.273731,-5.163569 7.943136,-10.242591 1.669405,-5.079022 6.865009,-18.344092 17.256302,-11.107187 10.39128,7.236906 -9.467074,11.007025 -11.636282,16.614866 -2.16921,5.60784 -1.983062,12.316662 -0.05728,17.047973 1.104968,2.714727 3.85284,1.567065 6.170144,3.066332 2.317318,1.499268 10.232138,1.547467 12.865948,4.670225 2.6338,3.122758 -6.21712,7.700964 -9.80758,7.963153 -3.590428,0.262189 -7.948478,0.306357 -8.38507,2.557031 -1.08447,5.59055 2.139456,10.828933 9.14666,14.201238 7.00721,3.372297 22.69153,-2.148411 12.91337,11.89179 -9.77815,14.04019 -8.87257,1.83988 -14.7219,-2.975329 -5.849343,-4.815213 -13.559775,-9.272269 -19.651198,-9.611834 z"
+       sodipodi:nodetypes="sssssssssszssssszssssszssssssszss" />
+  </g>
+</svg>

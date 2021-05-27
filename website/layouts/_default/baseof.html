@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		{{ partialCached "css" . }}    <!-- This is the CSS that's included on every page. -->
+		{{ block "style" . }} {{ end }} <!-- This allows a page to include CSS that's not global. -->
+
+		<link rel="icon" href="/xmr.png">
+
+		<title>{{ block "title" . }} {{ with .Title }} {{ . }} | {{ end }} {{ end }} {{ site.Title }}</title>
+	</head>
+
+	<body>
+		{{ if not .IsHome }} {{ partialCached "nav" . }} {{ end }}
+
+		{{ block "main" . }} {{ end }}
+
+		{{ partialCached "footer" . .IsHome }}
+	</body>
+</html>

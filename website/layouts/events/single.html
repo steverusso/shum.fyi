@@ -1,0 +1,16 @@
+{{ define "main" }}
+	<main>
+		<header>
+			<small>{{ .Date.Format "2 Jan 2006" }}</small>
+			<h1>{{ .Title }}</h1>
+			{{ partial "tags" .Params.tags }}
+		</header>
+		<hr>
+
+		<article>{{ .Content }}</article>
+		<hr>
+
+		<h3>&nbsp;&nbsp;Source(s):</h3>
+		{{ partial "sources" .Params.srcs }}
+	</main>
+{{ end }}

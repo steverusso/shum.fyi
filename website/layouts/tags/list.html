@@ -1,0 +1,23 @@
+{{ define "style" }}
+<style>
+.tags {
+	padding: 0 0 8rem;
+}
+.tags a {
+	margin: 0.5rem;
+}
+</style>
+{{ end }}
+
+{{ define "main" }}
+	<main>
+		<h1>All Tags</h1>
+		<hr>
+
+		<div class="tags">
+			{{ range site.Taxonomies.tags.ByCount }}
+				{{ partialCached "tag-count" .Page .Page }}
+			{{ end }}
+		</div>
+	</main>
+{{ end }}
