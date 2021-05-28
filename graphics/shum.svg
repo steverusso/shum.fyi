@@ -6,40 +6,13 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="600"
    height="200"
    viewBox="0 0 158.75 52.916668"
    version="1.1"
-   id="svg8"
-   inkscape:export-filename="/home/steve/projects/shum.fyi/website/static/shum.png"
-   inkscape:export-xdpi="48"
-   inkscape:export-ydpi="48"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
-   sodipodi:docname="shum.svg">
+   id="svg8">
   <defs
      id="defs2" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.57375"
-     inkscape:cx="289.88826"
-     inkscape:cy="100.43623"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1015"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -48,14 +21,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="darkbg"
      style="display:none">
     <rect
        style="fill:#111111;fill-opacity:1;stroke:none;stroke-width:30.3353;stroke-linecap:round;paint-order:markers fill stroke"
@@ -66,12 +37,8 @@
        y="-6.357829e-07" />
   </g>
   <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="rounded-bg" />
+     id="layer3" />
   <g
-     inkscape:label="shum"
-     inkscape:groupmode="layer"
      id="layer1"
      style="display:inline">
     <rect
@@ -89,7 +56,6 @@
        y="38.688984"
        id="text835"
        transform="scale(1.0410348,0.96058269)"><tspan
-         sodipodi:role="line"
          x="20.851065"
          y="38.688984"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.0444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#f9f9f9;stroke-width:0.254154"
