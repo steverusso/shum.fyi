@@ -12,33 +12,31 @@
    viewBox="0 0 135.46666 135.46667"
    version="1.1"
    id="svg8"
-   inkscape:export-filename="/home/steve/projects/shum.fyi/website/static/pickaxe.png"
-   inkscape:export-xdpi="48"
-   inkscape:export-ydpi="48"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
-   sodipodi:docname="pickaxe.svg">
-  <defs
-     id="defs2" />
+   sodipodi:docname="pickaxe.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
   <sodipodi:namedview
-     id="base"
      pagecolor="#ffffff"
      bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3489091"
-     inkscape:cx="244.31122"
-     inkscape:cy="253.73941"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     units="px"
      inkscape:window-width="1920"
      inkscape:window-height="1015"
+     id="namedview5089"
+     showgrid="false"
+     inkscape:zoom="1.2636719"
+     inkscape:cx="256"
+     inkscape:cy="256"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs2" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -47,35 +45,25 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="" />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="handle" />
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <g
-       id="g881"
-       transform="matrix(1.0187585,-0.27297552,0.27297552,1.0187585,-22.835047,9.0985289)">
-      <rect
-         style="fill:#c87137;stroke-width:16.1528;stroke-linecap:round;paint-order:markers fill stroke"
-         id="rect841"
-         width="15.519158"
-         height="110.82677"
-         x="88.029816"
-         y="-29.384869"
-         ry="7.7595792"
-         transform="rotate(45)" />
-      <path
-         id="path851"
-         style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:27.1598;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-         d="m 114.94687,114.60595 c 13.12999,-13.13 16.29625,-34.228966 8.30606,-55.349148 C 115.26276,38.136625 97.330037,20.203907 76.209859,12.213726 55.089686,4.223549 33.990709,7.3898051 20.860713,20.519801 c 0,0 44.069534,17.420852 60.367418,33.718735 16.297884,16.297883 33.718739,60.367414 33.718739,60.367414 z"
-         sodipodi:nodetypes="csscsc" />
-    </g>
-  </g>
+     id="layer2" />
+  <rect
+     style="fill:#c87137;stroke-width:17.0363;stroke-linecap:round;paint-order:markers fill stroke"
+     id="rect841"
+     width="16.368"
+     height="116.8886"
+     x="77.618263"
+     y="-11.695035"
+     ry="8.184"
+     transform="rotate(30)" />
+  <path
+     id="path851"
+     style="fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:28.6453;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     d="M 125.55267,94.476633 C 135.34479,77.516168 132.81095,55.157106 118.90558,35.821867 105.00023,16.486628 81.835928,3.1127134 58.138443,0.73794019 34.440964,-1.6368303 13.810513,7.3483242 4.018385,24.308787 c 0,0 49.651679,5.717737 70.704209,17.87242 21.052531,12.154684 50.830076,52.295426 50.830076,52.295426 z" />
 </svg>
