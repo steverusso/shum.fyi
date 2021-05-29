@@ -133,9 +133,13 @@ label, .easy-select {
 p, li, abbr b {
 	color: var(--para);
 }
-
-small, abbr {
+abbr, time {
 	color: var(--caption);
+}
+time {
+	font-size: 0.9rem;
+	margin-top: 0.5rem;
+	display: block;
 }
 
 mark {

@@ -1,6 +1,6 @@
 {{ define "main" }}
 	<main>
-		<small>Occurred on {{ .Date.Format "2 Jan 2006" }}</small>
+		<time>Occurred on {{ .Date.Format "2 Jan 2006" }}</time>
 		<h1>{{ .Title }}</h1>
 
 		{{ partial "tags" .Params.tags }}
