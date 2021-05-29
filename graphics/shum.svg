@@ -6,9 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   width="600"
+   width="550"
    height="200"
-   viewBox="0 0 158.75 52.916668"
+   viewBox="0 0 145.52083 52.916668"
    version="1.1"
    id="svg8">
   <defs
@@ -40,7 +40,8 @@
      id="layer3" />
   <g
      id="layer1"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(-6.6145818)">
     <rect
        style="fill:#222222;fill-opacity:1;stroke:#eeeeee;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect897"
