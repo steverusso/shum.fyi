@@ -12,9 +12,6 @@
 .tags a {
 	margin: 0.5rem 0.2rem;
 }
-article p:last-child {
-	margin-bottom: 0;
-}
 #toggleTags + div {
 	display: flex;
 	align-items: center;
@@ -29,12 +26,12 @@ article p:last-child {
 	user-select: none;
 }
 #toggleTags + div > label:before {
-	content: "\2BC8";
+	content: "(Show Tags)";
 	margin-right: 0.25rem;
 	line-height: 1;
 }
 #toggleTags:checked + div > label:before {
-	content: "\25BC";
+	content: "(Hide Tags)";
 }
 #toggleTags:checked ~ .tags {
 	display: block;
@@ -51,13 +48,11 @@ article p:last-child {
 		<hr>
 
 		<article>{{ .Content }}</article>
-		<br>
-		<br>
 
 		<input type="checkbox" id="toggleTags">
 		<div>
 			<h3>{{ (site.GetPage "/events").Pages | len }} events</h3>
-			<label for="toggleTags">Tags</label>
+			<label for="toggleTags"></label>
 		</div>
 
 		<div class="tags">
