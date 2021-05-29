@@ -1,3 +1,47 @@
+{{ define "style" }}
+<style>
+@media (max-width: 574px) {
+	h1 abbr { font-size: 2rem }
+}
+@media (max-width: 499px) {
+	h1 abbr { font-size: 1.5rem }
+}
+.tags, #toggleTags {
+	display: none;
+}
+.tags a {
+	margin: 0.5rem 0.2rem;
+}
+article p:last-child {
+	margin-bottom: 0;
+}
+#toggleTags + div {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+#toggleTags + div > h3 {
+	margin: 0;
+}
+#toggleTags + div > label {
+	color: var(--link);
+	margin-left: 1rem;
+	user-select: none;
+}
+#toggleTags + div > label:before {
+	content: "\2BC8";
+	margin-right: 0.25rem;
+	line-height: 1;
+}
+#toggleTags:checked + div > label:before {
+	content: "\25BC";
+}
+#toggleTags:checked ~ .tags {
+	display: block;
+}
+</style>
+{{ end }}
+
 {{ define "main" }}
 	<main>
 		<h1>
@@ -7,6 +51,21 @@
 		<hr>
 
 		<article>{{ .Content }}</article>
+		<br>
+		<br>
+
+		<input type="checkbox" id="toggleTags">
+		<div>
+			<h3>{{ (site.GetPage "/events").Pages | len }} events</h3>
+			<label for="toggleTags">Tags</label>
+		</div>
+
+		<div class="tags">
+			{{ range site.Taxonomies.tags.ByCount }}
+				{{ partialCached "tag-count" .Page .Page }}
+			{{ end }}
+			<br><br>
+		</div>
 
 		{{ with site.GetPage "/events" }}
 			{{ partial "events" .Pages }}
