@@ -62,9 +62,14 @@ a:not(:hover) {
 }
 
 h1 {
-	font-size: 2.25rem;
+	font-size: 2rem;
 	font-weight: normal;
 	margin: 1.25rem 0;
+}
+@media (max-width: 500px) {
+	h1 {
+		font-size: 1.75rem;
+	}
 }
 
 main {
@@ -296,14 +301,4 @@ footer .grid > div {
 }
 @media (min-width: 600px) {
 	.grid.sm-6 { --c: 6 }
-}
-
-header small:before {
-	content: "Occurred on ";
-}
-@media (max-width: 500px) {
-	header {
-		flex-direction: column;
-		text-align: center;
-	}
 }
