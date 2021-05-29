@@ -1,20 +1,20 @@
 :root {
-	--bodyBg: #1b1b1b;
-	--bodyBg2: #272727;
+	--bodyBg: #111;
+	--bodyBg2: #222;
 	--bodyClr: #f8f8f8;
 
 	--navH: 68px;
-	--navBg: #111;
+	--navBg: #181818;
 	--navClr: #eee;
 	--blockq: 140, 140, 140;
-	--tagBg: #3e3e3e;
 
 	--borderClr: #777;
 	--border1: 1px solid var(--borderClr);
+	--tagBg: #3a3a3a;
 
 	--para: #d4d4d4;
 	--link: #29B6F6;
-	--strong: #fff;
+	--strong: #fafafa;
 	--caption: #8f8f8f;
 	--mark: #ed821e66;
 	--markClr: #ddd;
@@ -25,7 +25,6 @@
 		--bodyBg2: #f3f3f3;
 		--bodyClr: #444;
 
-		--navBg: #222;
 		--borderClr: #ccc;
 		--tagBg: #fff;
 
