@@ -3,9 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="author" content="{{ .Params.author | default `shum.fyi` }}">
+		<meta name="keywords" content="{{ partial `head/keywords` . }}">
+		<meta name="description" content="{{ .Description | default site.Params.description }}">
 
-		{{ partialCached "css" . }}    <!-- This is the CSS that's included on every page. -->
-		{{ block "style" . }} {{ end }} <!-- This allows a page to include CSS that's not global. -->
+		{{ partialCached "head/css" . }} <!-- This is the CSS that's included on every page. -->
+		{{ block "style" . }} {{ end }}  <!-- This block allows a page to include CSS that's not global. -->
 
 		<link rel="icon" href="/xmr.png">
 

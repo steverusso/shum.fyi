@@ -1,0 +1,14 @@
+{{ define "partials/head/keywords" }}
+	{{ $kws := site.Params.keywords }}
+	{{ with union .Keywords .Params.tags }}
+		{{ $kws = print $kws "," (delimit . ",") }}
+	{{ end }}
+	{{ return $kws }}
+{{ end }}
+
+{{ define "partials/head/css" }}
+	{{ $css := resources.Get "main.css"
+		| resources.ExecuteAsTemplate "" $
+		| minify }}
+	<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{ end }}

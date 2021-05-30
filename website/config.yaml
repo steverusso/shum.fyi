@@ -16,3 +16,7 @@ taxonomies:
 permalinks:
   events: '/e/:filename/'
   tags: '/t/:slug/'
+
+params:
+  description: Should Have Used Monero!
+  keywords: 'shum,monero,should,have,used'
