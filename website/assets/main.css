@@ -262,6 +262,10 @@ footer .grid > div {
 .prev-next > :last-child {
 	text-align: right;
 }
+.prev-next small {
+	font-size: 0.98rem;
+	word-spacing: 0.4rem;
+}
 
 @media (max-width: 599px) {
 	.events > a {

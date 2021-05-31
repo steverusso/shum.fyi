@@ -1,7 +1,7 @@
 {{ define "partials/prev-next" }}
 	{{ with index . 1 }}
 		<a href="{{ .RelPermalink }}">
-			<small>({{ index $ 0 }})</small>
+			<small>{{ index $ 0 }}</small>
 			<div>{{ .Title }}</div>
 		</a>
 	{{ else }}
@@ -25,8 +25,8 @@
 		<br>
 
 		<div class="grid sm-6 prev-next">
-			{{ partial "prev-next" (slice "Prev" .PrevInSection) }}
-			{{ partial "prev-next" (slice "Next" .NextInSection) }}
+			{{ partial "prev-next" (slice "⮜ Prev" .PrevInSection) }}
+			{{ partial "prev-next" (slice "Next ⮞" .NextInSection) }}
 		</div>
 	</main>
 {{ end }}
