@@ -22,7 +22,7 @@
 @media (prefers-color-scheme: light) {
 	:root {
 		--bodyBg: #fafafa;
-		--bodyBg2: #f3f3f3;
+		--bodyBg2: #f5f5f5;
 		--bodyClr: #444;
 
 		--borderClr: #ccc;
@@ -313,7 +313,7 @@ footer .grid > div {
 }
 .prev-next > * {
 	background: var(--bodyBg2);
-	color: var(--para);
+	color: var(--bodyColor);
 	display: flex;
 	flex-direction: column;
 	line-height: 1.75;
