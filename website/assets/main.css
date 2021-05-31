@@ -322,9 +322,8 @@ footer .grid > div {
 	color: var(--strong);
 	text-decoration: none;
 }
-.prev-next a small {
-	display: block;
-	margin: 0 0 0.5rem;
+.prev-next a div {
+	margin-top: 0.5rem;
 }
 .prev-next > :last-child {
 	text-align: right;

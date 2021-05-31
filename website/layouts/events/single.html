@@ -2,7 +2,7 @@
 	{{ with index . 1 }}
 		<a href="{{ .RelPermalink }}">
 			<small>({{ index $ 0 }})</small>
-			<span>{{ .Title }}</span>
+			<div>{{ .Title }}</div>
 		</a>
 	{{ else }}
 		<div></div>
