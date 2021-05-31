@@ -15,7 +15,7 @@
 	--para: #d4d4d4;
 	--link: #29B6F6;
 	--strong: #fafafa;
-	--caption: #8f8f8f;
+	--caption: #999;
 	--mark: #ed821e66;
 	--markClr: #ddd;
 }
@@ -31,7 +31,7 @@
 		--para: #555;
 		--link: #03A9F4;
 		--strong: #333;
-		--caption: #a5a5a5;
+		--caption: #909090;
 		--mark: #f9ae4577;
 		--markClr: #000;
 	}
@@ -133,7 +133,7 @@ label, .easy-select {
 p, li, abbr b {
 	color: var(--para);
 }
-abbr, time {
+abbr, small, time {
 	color: var(--caption);
 }
 time {
@@ -314,8 +314,7 @@ footer .grid > div {
 .prev-next > * {
 	background: var(--bodyBg2);
 	color: var(--bodyColor);
-	display: flex;
-	flex-direction: column;
+	font-weight: 500;
 	line-height: 1.75;
 }
 .prev-next a:hover {
@@ -324,8 +323,8 @@ footer .grid > div {
 	text-decoration: none;
 }
 .prev-next a small {
+	display: block;
 	margin: 0 0 0.5rem;
-	color: var(--caption);
 }
 .prev-next > :last-child {
 	text-align: right;
@@ -334,7 +333,7 @@ footer .grid > div {
 	.prev-next > div {
 		display: none;
 	}
-	.prev-next > :not(div + a):last-child {
+	.prev-next > a + a {
 		border-top: var(--border1);
 	}
 }
