@@ -319,7 +319,6 @@ footer .grid > div {
 }
 .prev-next a:hover {
 	background: var(--tagBg);
-	color: var(--strong);
 	text-decoration: none;
 }
 .prev-next a div {
