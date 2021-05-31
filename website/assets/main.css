@@ -15,14 +15,14 @@
 	--para: #d4d4d4;
 	--link: #29B6F6;
 	--strong: #fafafa;
-	--caption: #8f8f8f;
+	--caption: #999;
 	--mark: #ed821e66;
 	--markClr: #ddd;
 }
 @media (prefers-color-scheme: light) {
 	:root {
 		--bodyBg: #fafafa;
-		--bodyBg2: #f3f3f3;
+		--bodyBg2: #f5f5f5;
 		--bodyClr: #444;
 
 		--borderClr: #ccc;
@@ -31,7 +31,7 @@
 		--para: #555;
 		--link: #03A9F4;
 		--strong: #333;
-		--caption: #a5a5a5;
+		--caption: #909090;
 		--mark: #f9ae4577;
 		--markClr: #000;
 	}
@@ -133,7 +133,7 @@ label, .easy-select {
 p, li, abbr b {
 	color: var(--para);
 }
-abbr, time {
+abbr, small, time {
 	color: var(--caption);
 }
 time {
@@ -298,11 +298,48 @@ footer .grid > div {
 	display: flex;
 	flex-flow: row wrap;
 }
-.grid > div {
+.grid > div, .grid > a {
 	flex: 0 1 auto;
 	padding: 0.75rem;
 	width: calc(100% / calc(12 / var(--c)));
 }
 @media (min-width: 600px) {
 	.grid.sm-6 { --c: 6 }
+}
+
+.prev-next {
+	border-top: var(--border1);
+	border-bottom: var(--border1);
+}
+.prev-next > * {
+	background: var(--bodyBg2);
+	color: var(--bodyColor);
+	font-weight: 500;
+	line-height: 1.75;
+}
+.prev-next a:hover {
+	background: var(--tagBg);
+	text-decoration: none;
+}
+.prev-next a div {
+	margin-top: 0.5rem;
+}
+.prev-next > :last-child {
+	text-align: right;
+}
+@media (max-width: 599px) {
+	.prev-next > div {
+		display: none;
+	}
+	.prev-next > a + a {
+		border-top: var(--border1);
+	}
+}
+@media (min-width: 600px) {
+	.prev-next {
+		margin: 1.5rem 0;
+	}
+	.prev-next > :last-child {
+		border-left: var(--border1);
+	}
 }

@@ -1,3 +1,14 @@
+{{ define "partials/prev-next" }}
+	{{ with index . 1 }}
+		<a href="{{ .RelPermalink }}">
+			<small>({{ index $ 0 }})</small>
+			<div>{{ .Title }}</div>
+		</a>
+	{{ else }}
+		<div></div>
+	{{ end }}
+{{ end }}
+
 {{ define "main" }}
 	<main>
 		<time>Occurred on {{ .Date.Format "2 Jan 2006" }}</time>
@@ -11,5 +22,11 @@
 
 		<h3>&nbsp;&nbsp;Source(s):</h3>
 		{{ partial "sources" .Params.srcs }}
+		<br>
+
+		<div class="grid sm-6 prev-next">
+			{{ partial "prev-next" (slice "Prev" .PrevInSection) }}
+			{{ partial "prev-next" (slice "Next" .NextInSection) }}
+		</div>
 	</main>
 {{ end }}
