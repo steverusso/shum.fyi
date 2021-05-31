@@ -298,11 +298,51 @@ footer .grid > div {
 	display: flex;
 	flex-flow: row wrap;
 }
-.grid > div {
+.grid > div, .grid > a {
 	flex: 0 1 auto;
 	padding: 0.75rem;
 	width: calc(100% / calc(12 / var(--c)));
 }
 @media (min-width: 600px) {
 	.grid.sm-6 { --c: 6 }
+}
+
+.prev-next {
+	border-top: var(--border1);
+	border-bottom: var(--border1);
+}
+.prev-next > * {
+	background: var(--bodyBg2);
+	color: var(--para);
+	display: flex;
+	flex-direction: column;
+	line-height: 1.75;
+}
+.prev-next a:hover {
+	background: var(--tagBg);
+	color: var(--strong);
+	text-decoration: none;
+}
+.prev-next a small {
+	margin: 0 0 0.5rem;
+	color: var(--caption);
+}
+.prev-next > :last-child {
+	text-align: right;
+}
+@media (max-width: 599px) {
+	.prev-next > div {
+		display: none;
+	}
+	.prev-next > :not(div + a):last-child {
+		border-top: var(--border1);
+	}
+}
+@media (min-width: 600px) {
+	.prev-next {
+		margin: 1.5rem 0;
+	}
+	.prev-next > :last-child {
+		border-left: var(--border1);
+	}
 }
