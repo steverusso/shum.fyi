@@ -264,7 +264,22 @@ footer .grid > div {
 }
 .prev-next small {
 	font-size: 1rem;
-	word-spacing: 0.4rem;
+	display: inline-flex;
+	align-items: center;
+}
+.prev-next > a:first-child small:before,
+.prev-next > a:last-child small:after {
+	content: "";
+	background: no-repeat center/100% url('data:image/png;base64,{{ (resources.Get "arrow.png").Content | base64Encode }}');
+	width: 1rem;
+	height: 1rem;
+}
+.prev-next > a:first-child small:before {
+	transform: rotateY(180deg);
+	margin-right: 0.75rem;
+}
+.prev-next > a:last-child small:after {
+	margin-left: 0.75rem;
 }
 
 @media (max-width: 599px) {
