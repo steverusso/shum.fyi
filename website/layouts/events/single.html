@@ -1,5 +1,3 @@
-{{ define "ogdesc" }}{{ .Summary | truncate 120 }}{{ end }}
-
 {{ define "partials/prev-next" }}
 	{{ with index . 1 }}
 		<a href="{{ .RelPermalink }}">

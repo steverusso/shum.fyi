@@ -6,6 +6,14 @@
 	{{ return $kws }}
 {{ end }}
 
+{{ define "partials/head/description" }}
+	{{ $d := .Description | default site.Params.description }}
+	{{ if eq .Type "events" }}
+		{{ $d = .Summary }}
+	{{ end }}
+	{{ return ($d | truncate 120) }}
+{{ end }}
+
 {{ define "partials/head/css" }}
 	{{ $css := resources.Get "main.css"
 		| resources.ExecuteAsTemplate "" $
