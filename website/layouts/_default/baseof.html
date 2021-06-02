@@ -12,6 +12,8 @@
 
 		{{ $ogTitle := (.Title | truncate 68) | default site.Title }}
 		<meta property="og:title" content="{{ $ogTitle }}">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="{{ .Permalink }}">
 		<meta property="og:image" content="{{ site.BaseURL }}/share-1200x630.png">
 		<meta property="og:description" content="{{ partial `head/description` . }}">
 
