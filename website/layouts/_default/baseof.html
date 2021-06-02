@@ -12,7 +12,7 @@
 
 		{{ $ogTitle := (.Title | truncate 68) | default site.Title }}
 		<meta property="og:title" content="{{ $ogTitle }}">
-		<meta property="og:image" content="{{ block `ogimg` . }}{{ site.BaseURL }}/share-1200x630.png{{ end }}">
+		<meta property="og:image" content="{{ site.BaseURL }}/share-1200x630.png">
 		<meta property="og:description" content="{{ partial `head/description` . }}">
 
 		<meta name="twitter:card" content="summary">
