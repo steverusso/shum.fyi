@@ -1,6 +1,6 @@
 languageCode: 'en-us'
 disableKinds: [ 'RSS' ]
-baseURL: http://shum.fyi
+baseURL: https://shum.fyi
 title: shum.fyi
 
 minify:
