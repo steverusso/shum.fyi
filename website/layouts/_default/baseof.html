@@ -5,14 +5,26 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta name="author" content="{{ .Params.author | default `shum.fyi` }}">
 		<meta name="keywords" content="{{ partial `head/keywords` . }}">
-		<meta name="description" content="{{ .Description | default site.Params.description }}">
+		<meta name="description" content="{{ partial `head/description` . }}">
 
 		{{ partialCached "head/css" . }} <!-- This is the CSS that's included on every page. -->
 		{{ block "style" . }} {{ end }}  <!-- This block allows a page to include CSS that's not global. -->
 
+		{{ $ogTitle := (.Title | truncate 68) | default site.Title }}
+		<meta property="og:title" content="{{ $ogTitle }}">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="{{ .Permalink }}">
+		<meta property="og:image" content="{{ site.BaseURL }}/share-1200x630.png">
+		<meta property="og:description" content="{{ partial `head/description` . }}">
+
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="{{ $ogTitle }}">
+		<meta name="twitter:image" content="{{ site.BaseURL }}/share-512x512.png">
+		<meta name="twitter:site" content="@shumfyi">
+
 		<link rel="icon" href="/xmr.png">
 
-		<title>{{ block "title" . }} {{ with .Title }} {{ . }} | {{ end }} {{ end }} {{ site.Title }}</title>
+		<title>{{ with .Title }} {{ . }} | {{ end }} {{ site.Title }}</title>
 	</head>
 
 	<body>
