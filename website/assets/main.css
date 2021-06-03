@@ -217,6 +217,14 @@ footer .grid > div {
 	}
 }
 
+h5 {
+	flex: 1;
+	font-size: 1.05rem;
+	font-weight: 500;
+	line-height: 1.75;
+	margin: 0;
+}
+
 .events > a {
 	background: var(--bodyBg2);
 	border-bottom: var(--border1);
@@ -231,18 +239,9 @@ footer .grid > div {
 .events > a:hover {
 	background: var(--bodyBg);
 }
-.events b {
-	flex: 1;
-	margin-right: 1rem;
-}
 .events u {
 	color: var(--caption);
 	font-size: 0.9rem;
-}
-
-.events b, .prev-next a div {
-	font-weight: 500;
-	line-height: 1.75;
 }
 
 .prev-next {
@@ -256,7 +255,7 @@ footer .grid > div {
 .prev-next a:hover {
 	background: var(--tagBg);
 }
-.prev-next a div {
+.prev-next h5 {
 	margin-top: 0.5rem;
 }
 .prev-next > :last-child {
@@ -299,6 +298,9 @@ footer .grid > div {
 	}
 }
 @media (min-width: 600px) {
+	.events h5 {
+		margin-right: 1rem;
+	}
 	.prev-next {
 		margin: 1.5rem 0;
 	}
