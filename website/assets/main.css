@@ -222,7 +222,7 @@ h5 {
 	font-size: 1.05rem;
 	font-weight: 500;
 	line-height: 1.75;
-	margin: 0 1rem 0 0;
+	margin: 0;
 }
 
 .events > a {
@@ -298,6 +298,9 @@ h5 {
 	}
 }
 @media (min-width: 600px) {
+	.events h5 {
+		margin-right: 1rem;
+	}
 	.prev-next {
 		margin: 1.5rem 0;
 	}
