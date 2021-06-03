@@ -130,10 +130,10 @@ label, .easy-select {
 	cursor: pointer;
 }
 
-p, li, abbr b {
+p, li {
 	color: var(--para);
 }
-abbr, small, time {
+small, time {
 	color: var(--caption);
 }
 time {

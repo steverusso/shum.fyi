@@ -1,10 +1,14 @@
 {{ define "style" }}
 <style>
-@media (min-width: 600px) {
-	h1 abbr { font-size: 2.4rem }
+h1 {
+	color: var(--caption);
+	font-size: 2.4rem;
+}
+h1 b {
+	color: var(--para);
 }
 @media (max-width: 499px) {
-	h1 abbr { font-size: 1.5rem }
+	h1 { font-size: 1.5rem }
 }
 .tags, #toggleTags {
 	display: none;
@@ -43,7 +47,7 @@
 	<main>
 		<h1>
 			<img src="/xmr.png" width="32" height="32" loading="lazy">
-			<abbr><b>S</b>hould <b>H</b>ave <b>U</b>sed <b>M</b>onero</abbr>
+			<span><b>S</b>hould <b>H</b>ave <b>U</b>sed <b>M</b>onero</span>
 		</h1>
 		<hr>
 
