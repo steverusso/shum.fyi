@@ -44,4 +44,6 @@ that's even there in the first place:
 > the form of shielded addresses, the use patterns of individuals within the
 > shielded pool can go lengths to decreasing the anonymity of Zcash.
 
-The study is only 24 pages long and well worth a read.
+The study is only 24 pages long and well worth a read. It was indirectly
+supported less than a month later when [Chainalysis added "investigation and
+compliance" support for Zcash](/e/chainalysis-support-dash-zcash/).
