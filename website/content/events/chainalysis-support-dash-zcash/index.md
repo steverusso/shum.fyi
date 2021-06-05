@@ -1,7 +1,7 @@
 ---
 title: Chainalysis Adds "Investigation and Compliance" Support for Dash & Zcash
 date: 2020-06-08
-tags: [ zcash, dash ]
+tags: [ chainalysis, zcash, dash ]
 srcs:
  - [ 'blog.chainalysis.com/reports/introducing-chainalysis-investigation-compliance-support-dash-zcash', 'archive.ph/jO7se' ]
 ---
