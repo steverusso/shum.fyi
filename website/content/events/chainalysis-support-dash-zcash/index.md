@@ -20,7 +20,7 @@ essentially a basic coinjoin implementation, and no one uses it:
 > transactions. [...] The percentage of Dash transactions that constitute
 > actual transfers of funds using PrivateSend is less than 0.7%.
 
-[For Zcash](https://archive.ph/jO7se#selection-417.0-421.190), uses have the
+[For Zcash](https://archive.ph/jO7se#selection-417.0-421.190), users have the
 option to sheild certain types transactions, and no one does:
 
 > Roughly 14% of Zcash transactions involve one of Zcash’s two shielded pools
