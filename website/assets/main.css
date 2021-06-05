@@ -316,7 +316,7 @@ a:hover h5 {
 	height: 16px;
 	margin-right: 0.5rem;
 }
-.tags *, .events u, .prev-next a {
+.tags *, .events *, .prev-next a {
 	text-decoration: none;
 }
 

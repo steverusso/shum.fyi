@@ -3,7 +3,7 @@ title: LocalBitcoins Bans Xanthusqueegly for Sending Funds Directly to a DarkNet
 date: 2021-04-15
 tags: [ localbitcoins, banned, dark-net ]
 srcs:
- - [ 'reddit.com/r/darknet/comments/mrjd99/local_bitcoin_website_terminated_my_account_after/', 'https://web.archive.org/web/20210415172033if_/https://www.reddit.com/r/darknet/comments/mrjd99/local_bitcoin_website_terminated_my_account_after/' ]
+ - [ 'reddit.com/r/darknet/comments/mrjd99/local_bitcoin_website_terminated_my_account_after/', 'web.archive.org/web/20210415172033if_/https://www.reddit.com/r/darknet/comments/mrjd99/local_bitcoin_website_terminated_my_account_after/' ]
 ---
 
 In a post titled _"Local bitcoin website terminated my account after ~8yrs"_, a
