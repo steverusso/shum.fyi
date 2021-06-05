@@ -1,7 +1,7 @@
 {{ define "partials/event" }}
 	<a href="{{ .RelPermalink }}">
-		<h5>{{ .Title }}</h5>
 		<u>{{ .Date.Format `2 Jan 2006` }}</u>
+		<h5>{{ .Title }}</h5>
 	</a>
 {{ end }}
 
