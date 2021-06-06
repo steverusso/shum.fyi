@@ -4,6 +4,7 @@ date: 2021-03-02
 tags: [ bottlepay, flagged, whirlpool, coinjoin ]
 srcs:
  - [ 'twitter.com/Marty_P_B/status/1366737347887456260', 'archive.ph/8cMR9' ]
+ - [ 'twitter.com/bottlepay/status/1367149002286858244', 'archive.ph/FOuKq' ]
 ---
 
 Bottlepay flagged and returned an incoming transaction from Twitter user
