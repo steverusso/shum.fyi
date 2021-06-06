@@ -18,6 +18,8 @@
 	--caption: #999;
 	--mark: #ed821e66;
 	--markClr: #ddd;
+
+	--arrow: url('data:image/png;base64,{{ (resources.Get "arrow.png").Content | base64Encode }}');
 }
 @media (prefers-color-scheme: light) {
 	:root {
@@ -267,7 +269,7 @@ a:hover h5 {
 .prev-next > a:first-child small:before,
 .prev-next > a:last-child small:after {
 	content: "";
-	background: no-repeat center/100% url('data:image/png;base64,{{ (resources.Get "arrow.png").Content | base64Encode }}');
+	background: no-repeat center/100% var(--arrow);
 	width: 1rem;
 	height: 1rem;
 }
@@ -296,6 +298,11 @@ a:hover h5 {
 	}
 }
 
+.tags {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
 .tags a {
 	background: var(--tagBg);
 	border: 2px solid var(--borderClr);
@@ -305,7 +312,7 @@ a:hover h5 {
 	align-items: center;
 	font-size: 14px;
 	height: 32px;
-	margin: 0.25rem 0;
+	margin: 0.5rem 0.5rem 0.5rem 0;
 	padding: 0.5rem 0.85rem !important;
 }
 .tags a:hover {

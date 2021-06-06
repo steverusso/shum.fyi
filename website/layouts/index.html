@@ -10,35 +10,21 @@ h1 b {
 @media (max-width: 499px) {
 	h1 { font-size: 1.5rem }
 }
-.tags, #toggleTags {
-	display: none;
-}
-.tags a {
-	margin: 0.5rem 0.2rem;
-}
-#toggleTags + div {
-	display: flex;
+h3 small a {
+	color: var(--caption);
+	display: inline-flex;
 	align-items: center;
-	margin-bottom: 1rem;
+	font-size: 1rem;
 }
-#toggleTags + div > h3 {
-	margin: 0;
+h3 small a:after {
+	content: "";
+	background: no-repeat center/100% var(--arrow);
+	margin-left: 0.5rem;
+	width: 14px;
+	height: 14px;
 }
-#toggleTags + div > label {
-	color: var(--link);
-	margin-left: 1rem;
-	user-select: none;
-}
-#toggleTags + div > label:before {
-	content: "(Show Tags)";
-	margin-right: 0.25rem;
-	line-height: 1;
-}
-#toggleTags:checked + div > label:before {
-	content: "(Hide Tags)";
-}
-#toggleTags:checked ~ .tags {
-	display: block;
+.tags.spaced {
+	padding-bottom: 1.5rem;
 }
 </style>
 {{ end }}
@@ -53,17 +39,16 @@ h1 b {
 
 		<article>{{ .Content }}</article>
 
-		<input type="checkbox" id="toggleTags">
-		<div>
-			<h3>{{ (site.GetPage "/events").Pages | len }} events</h3>
-			<label for="toggleTags"></label>
-		</div>
+		<h3>{{ (site.GetPage "/events").Pages | len }} events
+			<small>&nbsp;//&nbsp;
+				<a href="/tags/">See all {{ len site.Taxonomies.tags }} tags</a>
+			</small>
+		</h3>
 
-		<div class="tags">
-			{{ range site.Taxonomies.tags.ByCount }}
+		<div class="tags spaced">
+			{{ range site.Taxonomies.tags.ByCount | first 10 }}
 				{{ partialCached "tag-count" .Page .Page }}
 			{{ end }}
-			<br><br>
 		</div>
 
 		{{ with site.GetPage "/events" }}

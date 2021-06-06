@@ -1,0 +1,12 @@
+{{ define "main" }}
+	<main>
+		<h1>All Tags</h1>
+		<hr>
+
+		<div class="tags">
+			{{ range site.Taxonomies.tags.ByCount }}
+				{{ partialCached "tag-count" .Page .Page }}
+			{{ end }}
+		</div>
+	</main>
+{{ end }}
