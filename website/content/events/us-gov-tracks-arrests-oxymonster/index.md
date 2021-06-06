@@ -1,12 +1,12 @@
 ---
 title: U.S. Government Tracks & Arrests Dark Net User "OxyMonster"
 date: 2017-08-31
-tags: [ dark-net, arrested ]
+tags: [ darknet, arrested ]
 srcs:
  - [ 'miamiherald.com/news/nation-world/article175557206.html', 'archive.ph/9q7W7' ]
 ---
 
-Gal Vallerius was a dark net narcotics dealer in France who went by the alias
+Gal Vallerius was a darknet narcotics dealer in France who went by the alias
 "OxyMonster." U.S. government agents were able to track Bitcoin transactions to
 and from "OxyMonster" and noticed that Bitcoin usually went to Vallerius's
 account on LocalBitcoins.com, a site for trading Bitcoin over-the-counter. [Jay

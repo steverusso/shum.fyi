@@ -1,7 +1,7 @@
 ---
-title: LocalBitcoins Bans Xanthusqueegly for Sending Funds Directly to a DarkNet Market
+title: LocalBitcoins Bans Xanthusqueegly for Sending Funds Directly to a Darknet Market
 date: 2021-04-15
-tags: [ localbitcoins, banned, dark-net ]
+tags: [ localbitcoins, banned, darknet ]
 srcs:
  - [ 'reddit.com/r/darknet/comments/mrjd99/local_bitcoin_website_terminated_my_account_after/', 'web.archive.org/web/20210415172033if_/https://www.reddit.com/r/darknet/comments/mrjd99/local_bitcoin_website_terminated_my_account_after/' ]
 ---
