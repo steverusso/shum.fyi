@@ -15,9 +15,6 @@ instead."
 
 One day, someone launched [ShouldHaveUsedMonero.xyz](https://archive.ph/RbLTt)
 to chronicle more real-world impacts of Bitcoin's lack of privacy, but sadly it
-no longer exists. While there are other resources for Bitcoin's fungibility
-issues, such as [Seth Simmons' _Bitcoin's Fungibility
-Graveyard_](https://sethsimmons.me/posts/fungibility-graveyard/) and
-[6102bitcoin's CoinJoin flaggging
-page](https://6102bitcoin.com/coinjoin-flagging/), this site aims to expand the
-scope of the data and improve how it is presented.
+no longer exists. While there are [other resources](/other-resources/) for
+financial censorship and Bitcoin's fungibility issues, this site aims to
+amalgamate the data and improve how it is presented.
