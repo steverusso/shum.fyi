@@ -1,0 +1,19 @@
+---
+title: Binance Partners With Chainalysis
+date: 2018-10-17
+tags: [ binance, chainalysis ]
+srcs:
+ - [ 'blog.chainalysis.com/reports/chainalysis-binance', 'archive.ph/wnOKZ' ]
+ - [ 'coindesk.com/crypto-exchange-binance-adds-compliance-tools-from-chainalysis/', 'archive.ph/pfs4t' ]
+---
+
+Surveillance corporation Chainalysis announced that they had partnered with
+Binance to "tackle global cryptocurrency money laundering." The Chainalysis
+blog post [opened with the
+following](https://archive.ph/wnOKZ#selection-271.3-271.351):
+
+> Chainalysis, the leading provider of cryptocurrency compliance and
+> investigation solutions, has completed a global roll-out of its compliance
+> solution with Binance, the world’s largest cryptocurrency exchange by trade
+> volume, to help address the challenges at the intersection of
+> cryptocurrencies, regulators and traditional financial institutions.
