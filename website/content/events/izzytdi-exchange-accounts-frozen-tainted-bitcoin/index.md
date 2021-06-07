@@ -1,7 +1,7 @@
 ---
 title: Bisq User u/Izzytdi's Exchange Accounts Frozen Due to Tainted Bitcoin
 date: 2019-06-03
-tags: [ poloniex, bitfinex, frozen, tainted-btc ]
+tags: [ poloniex, bitfinex, frozen, tainted-coins ]
 srcs:
  - [ 'bisq.community/t/dirty-btc-coins-on-the-xmr-market/7798/1', 'archive.ph/eC9Rj' ]
 ---
