@@ -46,7 +46,7 @@ h3 small a:after {
 		</h3>
 
 		<div class="tags spaced">
-			{{ range site.Taxonomies.tags.ByCount | first 10 }}
+			{{ range site.Taxonomies.tags.ByCount | first 11 }}
 				{{ partialCached "tag-count" .Page .Page }}
 			{{ end }}
 		</div>
