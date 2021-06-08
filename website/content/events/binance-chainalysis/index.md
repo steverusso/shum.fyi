@@ -4,7 +4,7 @@ date: 2018-10-17
 tags: [ binance, chainalysis ]
 srcs:
  - [ 'blog.chainalysis.com/reports/chainalysis-binance', 'archive.ph/wnOKZ' ]
- - [ 'coindesk.com/crypto-exchange-binance-adds-compliance-tools-from-chainalysis/', 'archive.ph/pfs4t' ]
+ - [ 'twitter.com/binance/status/1052730763219628034', 'archive.ph/Na1na' ]
 ---
 
 Surveillance corporation Chainalysis announced that they had partnered with
