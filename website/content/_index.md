@@ -17,4 +17,4 @@ One day, someone launched [ShouldHaveUsedMonero.xyz](https://archive.ph/RbLTt)
 to chronicle more real-world impacts of Bitcoin's lack of privacy, but sadly it
 no longer exists. While there are [other resources](/other-resources/) for
 financial censorship and Bitcoin's fungibility issues, this site aims to
-amalgamate the data and improve how it is presented.
+aggregate the data and improve how it is presented.
