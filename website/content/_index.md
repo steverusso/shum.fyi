@@ -14,7 +14,9 @@ instead."
 > [-- u/dnale0r (27 Sep 2017)](https://archive.ph/MUpwa#selection-2065.0-2065.7)
 
 One day, someone launched [ShouldHaveUsedMonero.xyz](https://archive.ph/RbLTt)
-to chronicle more real-world impacts of Bitcoin's lack of privacy, but sadly it
-no longer exists. While there are [other resources](/other-resources/) for
-financial censorship and Bitcoin's fungibility issues, this site aims to
-aggregate the data and improve how it is presented.
+to chronicle more real-world examples of the lack of privacy in existing
+financial systems (including Bitcoin), but sadly it no longer exists. There are
+[other resources](/other-resources/) for financial censorship and Bitcoin's
+fungibility issues. However, this site aims to aggregate the data and
+ultimately show the importance of striving for maximum financial privacy and
+truly fungible money in this increasingly surveilled world.
