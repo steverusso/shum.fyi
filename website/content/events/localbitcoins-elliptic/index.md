@@ -4,6 +4,7 @@ date: 2020-07-28
 tags: [ localbitcoins, elliptic ]
 srcs:
  - [ 'elliptic.co/media-center/localbitcoins-adopts-elliptics-blockchain-monitoring-solutions', 'archive.ph/GwiZP' ]
+ - [ 'twitter.com/LocalBitcoins/status/1288054318898257921', 'archive.ph/RXsqw' ]
 ---
 
 Surveillance corporation Elliptic announced a new partnership with
