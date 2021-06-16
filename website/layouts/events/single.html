@@ -20,9 +20,11 @@
 		<article>{{ .Content }}</article>
 		<hr>
 
-		<h3>&nbsp;&nbsp;Source(s):</h3>
-		{{ partial "sources" .Params.srcs }}
-		<br>
+		{{ with .Params.srcs }}
+			<h3>&nbsp;&nbsp;Source{{ if gt (len .) 1 }}s{{ end }}:</h3>
+			{{ partial "sources" . }}
+			<br>
+		{{ end }}
 
 		<div class="grid sm-6 prev-next">
 			{{ partial "prev-next" (slice "Prev" .PrevInSection) }}
