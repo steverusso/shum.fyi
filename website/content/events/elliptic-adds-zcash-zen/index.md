@@ -32,7 +32,9 @@ Therefore, as the post [goes on to
 explain](https://archive.ph/iReJt#selection-911.0-911.493), services that use
 surveillance products can just treat Zcash shielded transactions the same way
 they treat Bitcoin transactions originating from a mix or coinjoin (in reality,
-this treatment very much resembles 'guilty until proven innocent'):
+this treatment very much resembles "guilty until proven innocent" or, [as
+Janine Roem says](https://archive.ph/Ut3Rn#selection-6563.0-6563.276),
+"risky-until-proven-untainted"):
 
 > If blockchain monitoring indicates that a Zcash deposit ultimately originated
 > from a shielded wallet, then as with funds from a bitcoin mixer, the funds
