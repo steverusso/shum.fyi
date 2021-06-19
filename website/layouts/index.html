@@ -10,6 +10,9 @@ h1 b {
 @media (max-width: 499px) {
 	h1 { font-size: 1.5rem }
 }
+h3 {
+	margin-top: 2.25rem;
+}
 h3 small a {
 	color: var(--caption);
 	display: inline-flex;
@@ -38,6 +41,7 @@ h3 small a:after {
 		<hr>
 
 		<article>{{ .Content }}</article>
+		<hr>
 
 		<h3>{{ (site.GetPage "/events").Pages | len }} events
 			<small>&nbsp;//&nbsp;
