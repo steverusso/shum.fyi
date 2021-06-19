@@ -1,6 +1,9 @@
 {{ define "main" }}
 	<main>
-		<time>Occurred on {{ .Date.Format "2 Jan 2006" }}</time>
+		{{ with .Date }}
+			<time>Occurred on {{ .Format "2 Jan 2006" }}</time>
+		{{ end }}
+
 		<h1>{{ .Title }}</h1>
 		<hr>
 
