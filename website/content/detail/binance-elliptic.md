@@ -1,7 +1,6 @@
 ---
 title: Binance Partners With Elliptic
 date: 2019-05-02
-tags: [ binance, elliptic ]
 srcs:
  - [ 'elliptic.co/media-center/binance-partners-elliptic-compliance-security', 'archive.ph/VKrdu' ]
 ---

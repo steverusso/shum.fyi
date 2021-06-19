@@ -1,0 +1,16 @@
+{{ define "main" }}
+	<main>
+		<time>Occurred on {{ .Date.Format "2 Jan 2006" }}</time>
+		<h1>{{ .Title }}</h1>
+		<hr>
+
+		<article>{{ .Content }}</article>
+		<hr>
+
+		{{ with .Params.srcs }}
+			<h3>&nbsp;&nbsp;Source{{ if gt (len .) 1 }}s{{ end }}:</h3>
+			{{ partial "sources" . }}
+			<br>
+		{{ end }}
+	</main>
+{{ end }}
