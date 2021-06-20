@@ -12,4 +12,4 @@ surveillance corporations partnerships:
 
 * [Eventus Systems on 12 Nov 2020](https://archive.ph/BLiVy)
 * [Refinitiv on 19 Nov 2020](https://archive.ph/huucP)
-* [Chainalysis on 11 Jan 2021](/detail/bitmex-chainalysis/)
+* [Chainalysis on 11 Jan 2021](/i/bitmex-chainalysis/)
