@@ -16,6 +16,7 @@ taxonomies:
 
 permalinks:
   events: '/e/:filename/'
+  items: '/i/:filename/'
   tags: '/t/:slug/'
 
 params:

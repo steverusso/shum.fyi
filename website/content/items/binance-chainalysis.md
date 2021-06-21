@@ -1,7 +1,6 @@
 ---
 title: Binance Partners With Chainalysis
 date: 2018-10-17
-tags: [ binance, chainalysis ]
 srcs:
  - [ 'blog.chainalysis.com/reports/chainalysis-binance', 'archive.ph/wnOKZ' ]
  - [ 'twitter.com/binance/status/1052730763219628034', 'archive.ph/Na1na' ]

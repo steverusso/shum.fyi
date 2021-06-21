@@ -1,7 +1,6 @@
 ---
 title: BitMEX Enhances Chainalysis Partnership (Months After Chainalysis Rates Them "High Risk")
 date: 2021-01-11
-tags: [ bitmex, chainalysis ]
 srcs:
  - [ 'blog.bitmex.com/increasing-screening-of-illicit-activity-with-chainalysis/', 'archive.ph/Ng2BZ' ]
  - [ 'twitter.com/BitMEX/status/1348850071362797572', 'archive.ph/Icdl9' ]

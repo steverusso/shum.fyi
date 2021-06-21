@@ -6,7 +6,12 @@
 		</h1>
 
 		{{ with .Content }}
+			<hr>
 			<article>{{ . }}</article>
+
+			{{ if len $.Pages | eq 1 }}
+				<h3>Events:</h3>
+			{{ end }}
 		{{ else }}
 			<br>
 		{{ end }}

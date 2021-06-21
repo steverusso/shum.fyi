@@ -1,7 +1,6 @@
 ---
 title: Paxful Partners With Chainalysis (Subsequently Receives Lower Risk Rating From Chainalysis)
 date: 2020-03-23
-tags: [ paxful, chainalysis ]
 srcs:
  - [ 'prnewswire.com/news-releases/chainalysis-and-paxful-create-new-compliance-standard-for-peer-to-peer-cryptocurrency-exchanges-301028204.html', 'archive.ph/LlXRk' ]
  - [ 'paxful.com/blog/chainalysis-and-paxful-create-new-compliance-standard-p2p-exchanges/', 'archive.ph/DKBH7' ]
