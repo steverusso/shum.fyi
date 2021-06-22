@@ -2,7 +2,7 @@
 title: Financial Crackdowns After U.S. Capitol Riot
 date: 2021-01-12
 until: 2021-01-15
-tags: [ gofundme, chainalysis ]
+tags: [ banned, gofundme, chainalysis ]
 srcs:
  - [ 'foxnews.com/travel/gofundme-banning-people-fudning-travel-expenses-for-violent-political-events-following-dc-riots', 'archive.ph/UnAvg' ]
  - [ 'blog.chainalysis.com/reports/capitol-riot-bitcoin-donation-alt-right-domestic-extremism', 'archive.ph/Cxl5f' ]
