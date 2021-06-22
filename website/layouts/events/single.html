@@ -11,7 +11,12 @@
 
 {{ define "main" }}
 	<main>
-		<time>Occurred on {{ .Date.Format "2 Jan 2006" }}</time>
+		<time>
+			{{ $d := .Date.Format "2 Jan 2006" }}
+			{{ with .Params.until }}{{ $d }} — {{ dateFormat "2 Jan 2006" . }}
+			{{ else }}Occurred on {{ $d }}{{ end }}
+		</time>
+
 		<h1>{{ .Title }}</h1>
 
 		{{ partial "tags" .Params.tags }}
