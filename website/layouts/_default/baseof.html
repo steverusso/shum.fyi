@@ -28,7 +28,7 @@
 	</head>
 
 	<body>
-		{{ if not .IsHome }} {{ partialCached "nav" . }} {{ end }}
+		{{ partialCached "nav" . }}
 
 		{{ block "main" . }} {{ end }}
 
