@@ -107,18 +107,37 @@ nav {
 	box-shadow: 0 4px 16px -1px rgba(0,0,0,.75);
 	display: flex;
 	height: var(--navH);
-	padding-right: var(--navH);
+	padding-right: 1rem;
 	position: sticky;
 	top: 0;
 	z-index: 4;
 }
+nav a:first-child {
+	margin-right: auto;
+}
 nav a {
 	color: var(--navClr);
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	font-size: 1.025rem;
 	height: 100%;
 	padding: 0 1rem;
+}
+nav .connect a {
+	padding: 0 0.5rem;
+}
+nav .connect div {
+	background: #ccc;
+	border-radius: 50%;
+	display: flex;
+}
+nav .connect a:hover div {
+	background: #fff;
+}
+nav .connect img {
+	margin: 0.4rem;
+	width: 24px;
+	height: 24px;
 }
 
 hr {
