@@ -16,10 +16,10 @@ legacy fiat systems.
 ### Why Monero? Doesn't Bitcoin Fix Fiat?
 
 Existing financial systems are frequently restrictive: bank accounts are
-shutdown, users are banned from platforms like PayPal or GoFundMe, and
-transactions are blocked by payment networks like Visa or Mastercard. People
-often use Bitcoin as a solution without realizing it's somewhat of a
-surveillance network due to its completely transparent ledger. Bad actors can
-easily scrutinize financial activities of Bitcoin users which allows for things
-like [compliant mining](/t/compliant-mining/) and [tainted
-coins](/t/tainted-coins/). Therefore, it is not a viable solution.
+shutdown, users are banned from platforms like [PayPal](/t/paypal/) or
+[GoFundMe](/t/gofundme/), and transactions are blocked by payment networks like
+Visa or Mastercard. People often use Bitcoin as a solution without realizing
+it's somewhat of a surveillance network due to its completely transparent
+ledger. Bad actors can easily scrutinize financial activities of Bitcoin users
+which allows for things like [compliant mining](/t/compliant-mining/) and
+[tainted coins](/t/tainted-coins/). Therefore, it is not a viable solution.
